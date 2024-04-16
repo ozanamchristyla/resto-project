@@ -1,0 +1,73 @@
+body
+{
+    font-size: x-large;
+    background-image: url(images/restaurant.jpg);
+    background-size: cover;
+    background-position: center;
+    text-transform: uppercase;
+}
+em
+{
+    color: red;
+    font-size: xx-large;
+    font-weight: bold;
+}
+#logo
+{
+    border: none;
+    display: inline-block;
+    vertical-align: top;
+    color: #fff;
+
+}
+#lien
+{
+    border: none;
+    display: inline-block;
+    background-position: top;
+    position: absolute;
+    right: 10px;
+}
+#lien ul
+{
+    list-style-type: none;
+    display: inline;
+}
+#lien li
+{
+    display: inline-block;
+    margin-right: 20px;
+}
+#lien a
+{
+    text-decoration: none;
+    color:  #fff;
+}
+#lien a:hover
+{
+    color: black;
+    text-decoration: blink;
+    font-size: xx-large;
+
+}
+.p 
+{
+    text-align: center;
+    margin-top: 150px;
+}
+.v:hover
+{
+    font-size: x-large;
+    text-decoration: blink;
+    color: deeppink;
+}
+.v
+{
+    font-size: large;
+    text-transform: uppercase;
+    color: darkblue;
+}
+.p h1
+{
+    color: #171427;
+}

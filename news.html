@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ozanam Resto</title>
+        <!-- link to CSS -->
+        <link rel="stylesheet" href="news.css">
+        <!-- box Icone -->
+        <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
+    </head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="#">ozanam<span>RESTO</span></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#fond">ACCUEL</a></li>
+                <li><a href="#A_PROPOS">A_PROPOS</a></li>
+                <li><a href="#menu">MENU</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="#"><img src="shopping-bag-regular-24.png" alt="commande"></a></li>
+                <li><a href="#"><img src="envelope-open-regular-24.png" alt=""></a></li>
+            </ul>
+            <div class="cart">
+                <h2 class="cart-title">Your cart</h2>
+                <!-- content -->
+                <div class="cart-content">
+                    <div class="cart-box">
+                        <img src="images/fond2.jpeg" alt="" class="cart-img">
+                        <div class="detail-box">
+                            <div class="cart-product-title">fond2</div>
+                            <div class="cart-price">$25</div>
+                            <input type="number" value="1" class="cart-quantity">
+                        </div>
+                        <!-- Remove cart -->
+                        <i class='bx bxs-trash-alt cart-remove'></i>
+                    </div>
+                </div> 
+                <!-- Total -->
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+                <!-- Buy Button -->
+                <button type="button" class="btn-buy">Buy Now</button>
+                <!-- Cart Close /////<box-icon name='x'></box-icon>-->
+                <i class="bx bx-x" id="close-cart"></i>
+             </div>
+        </nav>
+        <div class="search-box">
+            <input type="text" placeholder="Rechercher...">
+            <button>Rechercher</button>
+        </div>
+    </header>
+    <div id="fond">
+        <P>Réstaurant Multi-Saveur à Votre Goût dans la ville de Diego
+        <div class="boutton_Menu"><a href="menu.html">voir tous le Menu</a></div>
+        </P>
+
+    </div>
+    <div id="A_PROPOS">
+        <h1> - - - - A PROPOS - - - - </h1>
+        <p>
+                The rapid development of information technology in China since the twenty-first
+            century has completely changed the way people study, work, and live. As a key
+            research topic in information science, artificial intelligence, also known as AI, has
+            gone through tumultuously good and hard times ever since the concept was coined
+            half a century ago. It is inspiring to see that AI has achieved a tremendous progress
+            and has been applied in a wide range of fields over the past several years, as a result
+            of the advancements in computing power and big data technology. Today, AI is
+            developing at an exponential rate, and its fruits will be continuously consolidated
+            and deepened
+        </p>
+        <div class="center slider"></div>
+    </div>
+    <section class="shop container">
+        <h1 id="menu"> - - - - - - Menu - - - - - - </h1>
+        <!-- content -->
+        <div class="shop-content">
+             <!-- box 1 -->
+        <div class="product-box">
+            <img src="images/2-coffee latte.jpeg" alt="" class="product-img">
+            <h2 class="product-title">coffee latte</h2>
+            <span class="price">$25</span>  
+            <i class="bx bx-shopping-bag add-cart"></i>              
+        </div>
+        <!-- box 2 -->
+        <div class="product-box">
+            <img src="images/2-latte.jpeg" alt="" class="product-img">
+            <h2 class="product-title">latte</h2>
+            <span class="price">$26</span>  
+            <i class="bx bx-shopping-bag add-cart"></i>              
+        </div>
+        <!-- box 3 -->
+        <div class="product-box">
+            <img src="images/4-Charred-Eggplant-Pasta.jpg" alt="" class="product-img">
+            <h2 class="product-title">Charred-Eggplant</h2>
+            <span class="price">$27</span>  
+            <i class="bx bx-shopping-bag add-cart"></i>              
+        </div>
+        <!-- box 4 -->
+        <div class="product-box">
+            <img src="images/4-vegetable-pasta.jpg" alt="" class="product-img">
+            <h2 class="product-title">vegetable-pasta</h2>
+            <span class="price">$28</span>  
+            <i class="bx bx-shopping-bag add-cart"></i>              
+        </div>
+        <!-- box 5 -->
+        <div class="product-box">
+            <img src="images/3-baked-feta-and-tomato-pasta.jpg" alt="" class="product-img">
+            <h2 class="product-title">baked-feta-and-tomato</h2>
+            <span class="price">$29</span>  
+            <i class="bx bx-shopping-bag add-cart"></i>              
+        </div>
+        <!-- box 6 -->
+        <div class="product-box">
+            <img src="images/3-brochette de poisson.jpeg" alt="" class="product-img">
+            <h2 class="product-title">brochette de poisson</h2>
+            <span class="price">$30</span>  
+            <i class="bx bx-shopping-bag add-cart"></i>              
+        </div>
+        <!-- box 7 -->
+        <div class="product-box">
+            <img src="images/2-BROCHETTES VIANDE HACHEE.jpg" alt="" class="product-img">
+            <h2 class="product-title">BROCHETTES VIANDE HACHEE</h2>
+            <span class="price">$31</span>  
+            <i class="bx bx-shopping-bag add-cart"></i>              
+        </div>
+        <!-- box 8 -->
+        <div class="product-box">
+            <img src="images/3-boeuf braisé de style chinois.jpeg" alt="" class="product-img">
+            <h2 class="product-title">boeuf braisé de style chinois</h2>
+            <span class="price">$32</span>  
+            <i class="bx bx-shopping-bag add-cart"></i>              
+        </div>
+        <!-- box 9 -->
+        <div class="product-box">
+            <img src="images/4-225_203921a_1112.jpg" alt="" class="product-img">
+            <h2 class="product-title">poulet_routti</h2>
+            <span class="price">$29</span>  
+            <i class="bx bx-shopping-bag add-cart"></i>              
+        </div>
+        <!-- box 10 -->
+        <div class="product-box">
+            <img src="images/4-poulet braisé.jpeg" alt="" class="product-img">
+            <h2 class="product-title">poulet braisé</h2>
+            <span class="price">$30</span>  
+            <i class="bx bx-shopping-bag add-cart"></i>              
+        </div>
+        <!-- box 11 -->
+        <div class="product-box">
+            <img src="images/4-images.jpeg" alt="" class="product-img">
+            <h2 class="product-title">Pizza</h2>
+            <span class="price">$31</span>  
+            <i class="bx bx-shopping-bag add-cart"></i>              
+        </div>
+        <!-- box 12 -->
+        <div class="product-box">
+            <img src="images/4-images (1).jpeg" alt="" class="product-img">
+            <h2 class="product-title">Burger</h2>
+            <span class="price">$32</span>  
+            <i class="bx bx-shopping-bag add-cart"></i>              
+        </div>
+         <!-- box 13 -->
+         <div class="product-box">
+            <img src="images/4-Risotto-au-poulet-et-tomates.jpg" alt="" class="product-img">
+            <h2 class="product-title">Risotto-au-poulet-et-tomates</h2>
+            <span class="price">$27</span>  
+            <i class="bx bx-shopping-bag add-cart"></i>              
+        </div>
+        <!-- box 14 -->
+        <div class="product-box">
+            <img src="images/1-verre de champagne.jpeg" alt="" class="product-img">
+            <h2 class="product-title">VIN</h2>
+            <span class="price">$26</span>  
+            <i class="bx bx-shopping-bag add-cart"></i>              
+        </div>
+        <!-- box 15 -->
+        <div class="product-box">
+            <img src="images/1-pineapple-juice.webp" alt="" class="product-img">
+            <h2 class="product-title">pineapple-juice</h2>
+            <span class="price">$27</span>  
+            <i class="bx bx-shopping-bag add-cart"></i>              
+        </div>
+        </div>
+        <div class="boutton_Menu"><a href="menu.html">voir tous le Menu</a></div>
+    </section>
+    <div id="CONTACT">
+        <form method="get" action="traitement.php">
+            <fieldset>
+                <legend id="contact">CONTACT</legend> <!-- Titre du fieldset -->
+                <div class="mombamomba">
+                    <label for="nom">Entrer votre nom complet</label><br>
+                    <input type="text" name="nom" id="nom" placeholder="TOLOJANAHARY Eddy Christyla" required/><br>
+                    <label for="prenom">Entrer votre Adress exacte</label><br>
+                    <input type="text" name="adresse" id="adresse" placeholder="PV-F9 Lazaret-Cur "/><br>
+                    <label for="phone">Entrer votre numéro Telephone</label><br>
+                    <input type="tel" name="phone" id="phone" placeholder="+261xxxxxxxx" required><br><br>
+                    <label for="email">Entrer votre adress e-mail </label><br>
+                    <input type="email" name="email" id="email" placeholder="ozanam@gmail.com" required/><br>
+                </div>
+                <div class="message">
+                    <label for="message">Comment pensez-vous que je pourrais améliorer mon site?</label><br /><textarea name="message" id="message"></textarea>
+                </div>
+                <input type="submit" value="Envoyer"/>
+            </fieldset>   
+        </form>                
+    </div>
+    <footer>
+        <p>copyright @ 2024 - Site Web Réstaurant</p>
+        <div class="foot">
+            <h3>SOCIALIZE</h3>
+            <a href="#"><i class='bx-fw bx bxl-facebook-square'></i></a>  <a href="#"><i class='bx-fw bx bxl-gmail'></i></a>  <a href=""></a><i class='bx-fw bx bxl-twitter'></i></a>  <a href="#"></a><i class='bx-fw bx bxl-instagram'></i></a>  <a href="#"></a><i class='bx-fw bx bxl-whatsapp'></i></a>
+        </div>
+        <div class="anarako">
+            TOLOJANAHARY Eddy Christyla<br>
+            M1 STIC (ESP-Antsiranana)
+        </div>
+    </footer> 
+     <script src="news.js"></script>       
+</body>
+</html>

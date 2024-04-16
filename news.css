@@ -1,0 +1,419 @@
+/* google Fonts */
+
+:root{
+    --main-color: #fd4646;
+    --text-color: #171427;
+    --bg-color: #fff;
+}
+img{
+    width: 100%;
+}
+body{
+    color: var(--text-color);
+    margin: 0
+}
+.container{
+    max-width: 1268px;
+    margin: auto;
+    width: 100%;
+}
+section{
+    padding: 4rem 0 3rem;
+}
+/*--------------------------------------------------------------
+ header
+--------------------------------------------------------------*/
+header{
+    background-color: rgba(195, 247, 147, 0.658);
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.logo a{
+    color: var(--text-color);
+    padding: 0px 20px;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 10px;
+    left: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 1.3rem;
+    box-shadow: 5px 5px 2px black;
+}
+.logo span{
+    color: rgba(238, 56, 11);
+    font-weight: bold;
+    font-size: 2rem;
+}
+/* Navigation */
+nav
+{
+display: inline-block;
+width: 1200px;
+text-align: right;
+margin: left;
+vertical-align: baseline;
+}
+nav ul
+{
+list-style-type: none;
+}
+nav li
+{
+display: inline-block;
+margin-right: 15px;
+}
+nav a
+{
+font-size: 1.3em;
+color: #181818;
+padding-bottom: 3px;
+text-decoration: none;
+}
+nav a:hover
+{
+color: #760001;
+border-bottom: 3px solid #760001;
+font-size: 1.6rem;
+}
+.search-box {
+    display: flex;
+    align-items: center;
+}
+
+.search-box input[type="text"] {
+    padding: 5px;
+}
+
+.search-box button {
+    padding: 7px 10px;
+    background-color: var(--text-color);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+#cart-icon{
+    font-size: 1.8rem;
+    cursor: pointer;
+ }
+ /* Cart */
+ .cart{
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 360px;
+    min-height: 100vh;
+    padding: 20px;
+    background: var(--bg-color);
+    box-shadow: -2px 0 4px hsl(0 4% 15% / 10%);
+    transition: 0.3s;
+ }
+ .cart.actve{
+    right: 0;
+ }
+ .cart-title{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+ }
+ .cart-box{
+    display: grid;
+    grid-template-columns: 32% 50% 18%;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+ }
+ .cart-img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    padding: 10px;
+ }
+ .detail-box{
+    display: grid;
+    row-gap: 0.5rem;
+ }
+ .cart-product-title{
+    font-size: 1rem;
+    text-transform: uppercase;
+ }
+ .cart-price{
+    font-weight: 500;
+ }
+ .cart-quantity{
+    border: 1px solid var(--text-color);
+    outline-color: var(--main-color);
+    width: 2.4rem;
+    text-align: center;
+    font-size: 1rem;
+ }
+ .cart-remove{
+    font-size: 24px;
+    color: var(--main-color);
+    cursor: pointer;
+ }
+ .total{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+    border-top: 1px solid var(--text-color);
+ }
+ .total-title{
+    font-size: 1rem;
+    font-weight: 600;
+ }
+ .total-price{
+    margin-left: 0.5rem;
+ }
+ .btn-buy{
+    display: flex;
+    margin: 1.5rem auto 0 auto;
+    padding: 12px 20px;
+    border: none;
+    background: var(--main-color);
+    color: var(--bg-color);
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+ }
+ .btn-buy:hover{
+    background: var(--text-color);
+ }
+ #close-cart{
+    position: absolute;
+    top: 1rem;
+    right: 0.8rem;
+    font-size: 2rem;
+    color: var(--text-color);
+    cursor: pointer;
+ }
+ .section-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1.5rem;
+ }
+ .shop{
+    margin-top: 2rem;
+ }
+/*--------------------------------------------------------------
+# Fond
+--------------------------------------------------------------*/
+#fond
+{
+    background-image: url(images/restaurant.jpg);
+    height: 93vh;
+    background-size: cover;
+    background-position: center;
+}
+#fond p{
+    font-size: xxx-large;
+    padding: 100px 200px 50px 700px;
+    margin-top: 0px;
+    color: white;
+    font-family: Old English Text MT sans-serif; 
+    line-height: 80px;
+}
+/*--------------------------------------------------------------
+    # A propos
+--------------------------------------------------------------*/
+#A_PROPOS{
+    margin: 50px 0px 50px 50px;
+}
+#A_PROPOS h1{
+    text-align: center;
+    color: red;
+    font-size: xx-large;
+}
+#A_PROPOS p{
+    display: inline-block;
+    width: 50%;
+    height: 300px;
+    vertical-align: bottom;
+    font-size: x-large;
+
+}
+.center{
+    float: right;
+    margin-right: 20px;
+}
+.slider{
+    background: url(images/res1.jpeg);
+    background-size: cover;
+    height: 300px;
+    width: 550px;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.3);
+    animation: animate 30s infinite;
+}
+@keyframes animate{
+    20%{
+        background: url(images/res2.jpg);
+        background-size: cover;
+    }
+    40%{
+        background: url(images/res3.jpeg);
+        background-size: cover;
+    }
+    60%{
+        background: url(images/res4.jpeg);
+        background-size: cover;
+    }
+    80%{
+        background: url(images/res5.jpg);
+        background-size: cover;
+    }
+    100%{
+        background: url(images/res6.jpeg);
+        background-size: cover;
+    }
+}
+/*--------------------------------------------------------------
+# Menu ou bien shop container
+--------------------------------------------------------------*/
+.shop-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    gap: 1.5rem;
+ }
+ #menu{
+    text-align: center;
+    color: red;
+    font-size: xx-large;
+ }
+ .product-box{
+    position: relative;
+ }
+ .product-box:hover{
+    padding: 10px;
+    border: 1px solid var(--text-color);
+    transition: 0.4s;
+ }
+ .product-img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem;
+ }
+ .product-title{
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+ }
+ .price{
+    font-weight: 500;
+ }
+ .add-cart{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: var(--text-color);
+    color: var(--bg-color);
+    padding: 10px;
+    cursor: pointer;
+ }
+ .add-cart:hover{
+    background: hsl(hue, saturation, lightness);
+ }
+.boutton_Menu{
+    border-radius: 20px;
+    background-color: aqua;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    margin: 50px 5px 50px 1000px;
+    padding-top: 10px;
+    font-size: xx-large;
+    box-shadow: 5px 5px 0px var(--text-color);
+ }
+ .boutton_Menu a{
+    text-decoration: none;
+ }
+ .boutton_Menu:hover{
+    width: 300px;
+    height: 60px;
+    font-size: 40px;
+ }
+.boutton_Menu a:hover{
+    text-decoration: blink;
+    color: deeppink;
+ }
+ /*--------------------------------------------------------------
+# contacte
+--------------------------------------------------------------*/
+#CONTACT legend{
+    text-align: center;
+    color: red;
+    font-size: xx-large;
+}
+fieldset{
+    background-color: rgba(170, 200, 40, 0.6);
+    padding: 40px;
+    margin: 20px 0px 0px 0px;
+}
+fieldset:hover{
+    box-shadow: 0px 0px 5px #444;
+}
+fieldset input{ 
+    width: 300px;
+    height: 30px;
+}
+fieldset label{
+    display: inline-block;
+    width: 300px;
+    padding: 20px 0px 0px 5px;
+    font-size: x-large;
+}
+input[type="submit"]{
+    float: right;
+    width: 150px;
+    height: 40px;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+input[type="submit"]:hover{
+    text-decoration: blink;
+    color: deeppink;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+}
+textarea{
+    width: 700px;
+    height: 200px;
+}
+.mombamomba{
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+}
+.message{
+    display: inline-block;
+    vertical-align: top;
+}
+ /*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+.foot{
+    display: inline-block;
+    width: 500px;
+    text-align: center;
+    margin-left: 100px;
+  }
+  /* ------------------------------------------------------
+  Réponsive
+  ------------------------------------------------------- */
